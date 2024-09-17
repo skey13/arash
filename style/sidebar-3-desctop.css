@@ -1,0 +1,37 @@
+.desctop{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.desctop-ul li{
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.desctop-logo{
+  opacity: 0;
+}
+
+.search-box{
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  height: 45px;
+}
+
+.search-box input{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+.search-box input::placeholder{
+  text-align: center;
+}
+.desctop-ul li a{
+  padding: 7px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+}
